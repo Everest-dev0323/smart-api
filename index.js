@@ -8,7 +8,7 @@ app.use(bodyParser.urlencoded({ extended: false }))
 //To parse json data
 app.use(bodyParser.json())
 
-app.get('/', (req, res) => {
+app.get('/api/', (req, res) => {
     console.log(req.body)
     console.log("Hello world")
 })
