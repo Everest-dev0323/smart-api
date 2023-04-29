@@ -10,6 +10,7 @@ app.use(bodyParser.json())
 
 app.get('/', (req, res) => {
     console.log(req.body)
+    console.log("Hello world")
 })
 
 app.listen(3000, () => console.log('Server is running on 3000 port.'))
